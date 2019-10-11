@@ -1,11 +1,11 @@
 #!/bin/bash
 
-ApiUrl="${EX_ApiUrl:-http://ex-api.localtest.me:5000}"
-Html5Mode="${EX_Html5Mode:-false}"
-EnableSsl="${EX_EnableSsl:-false}"
-EnableAccountCreation="${EX_EnableAccountCreation:-true}"
+ApiUrl="https://ex-api.localtest.me:5000"
+Html5Mode="true"
+EnableSsl="true"
+EnableAccountCreation="true"
 
-OAuth="${EX_ConnectionStrings__OAuth:-}"
+OAuth=""
 IFS=';' read -a oauthParts <<< "$OAuth"
 for part in ${oauthParts[@]}
 do
