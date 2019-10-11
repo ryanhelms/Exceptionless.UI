@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ApiUrl="https://ex-api.localtest.me:5000"
+ApiUrl="https://exceptionless.dev.enumis.co.uk"
 Html5Mode="true"
 EnableSsl="true"
 EnableAccountCreation="true"
